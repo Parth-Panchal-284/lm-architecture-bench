@@ -29,3 +29,7 @@ docs/nanolm_figs/
 # Temporary files
 *.log
 *.tmp
+
+# Local experiment summaries and intermediate tables
+results/*
+!results/.gitkeep
