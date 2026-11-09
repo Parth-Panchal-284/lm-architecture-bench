@@ -1,0 +1,13 @@
+python: 3.11.13
+platform: Linux-5.14.0-687.17.1.el9_8.x86_64-x86_64-with-glibc2.34
+torch: 2.6.0+cu124
+numpy: 1.26.4
+yaml: 6.0.2
+pandas: 2.2.3
+matplotlib: 3.10.0
+scipy: 1.15.2
+cuda_available: True
+cuda_version: 12.4
+gpu_count: 1
+gpu_0: NVIDIA A100-PCIE-40GB
+nanolm: /home/018333965/cmpe258_lm_architecture_bench/_deps/DeepDataMiningLearning/DeepDataMiningLearning/llm/nanolm/__init__.py
