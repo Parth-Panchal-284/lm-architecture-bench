@@ -1,0 +1,22 @@
+# Near-random models for checking loss against ln(vocabulary size).
+name: untrained_tokenizers
+base: ../char_transformer_modern.yaml
+seeds: [1337]
+common:
+  train.max_steps: 1
+  train.seq_len: 128
+  train.batch_size: 16
+  train.log_every: 1
+  train.eval_every: 0
+  train.save_checkpoint: false
+  eval.final_eval_tokens: 0
+  eval.sample_tokens: 0
+runs:
+  - name: char_untrained
+    overrides:
+      data.tokenizer: char
+      model.vocab_size: 65
+  - name: byte_untrained
+    overrides:
+      data.tokenizer: byte
+      model.vocab_size: 256

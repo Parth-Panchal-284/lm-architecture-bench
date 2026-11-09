@@ -1,0 +1,13 @@
+# PyTorch is intentionally not pinned here because CUDA builds are cluster-specific.
+# Install/load a PyTorch >= 2.4 build compatible with the machine first.
+numpy>=1.26
+PyYAML>=6.0
+pandas>=2.0
+matplotlib>=3.8
+scipy>=1.11
+sentencepiece>=0.2
+tiktoken>=0.7
+huggingface_hub>=0.24
+datasets>=2.20
+pytest>=8.0
+tabulate>=0.9

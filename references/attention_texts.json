@@ -1,0 +1,5 @@
+{
+  "dialogue": "ROMEO:\nBut soft! what light through yonder window breaks?",
+  "prose": "The quick brown fox jumps over the lazy dog while morning light fills the room.",
+  "structured": "Name: Alice\nRole: Engineer\nName: Bob\nRole: Researcher"
+}

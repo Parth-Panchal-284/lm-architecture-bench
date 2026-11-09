@@ -1,0 +1,22 @@
+# Shared defaults for the local experiment definitions.
+seed: 1337
+device: auto
+precision: auto
+out_dir: outputs/nanolm
+
+data:
+  source: tinyshakespeare
+  tokenizer: char
+  val_fraction: 0.1
+  cache_dir: data/nanolm
+
+train:
+  log_every: 50
+  eval_every: 250
+  eval_tokens: 131072
+  compile: false
+
+eval:
+  final_eval_tokens: 0
+  batch_size: 32
+  sample_tokens: 400

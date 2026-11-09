@@ -1,0 +1,8 @@
+# Same Transformer scale with RMSNorm, RoPE, SwiGLU, and no biases.
+defaults: [char_transformer.yaml]
+name: char_gpt_modern
+model:
+  norm: rmsnorm
+  pos: rope
+  mlp: swiglu
+  bias: false
